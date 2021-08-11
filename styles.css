@@ -26,12 +26,17 @@ justify-content: space-between;margin: 2%;}
 {margin-right: auto; font-size: 2em; background-color: darkkhaki;width: 50%; text-align: center;}
 .main-content-2
 {background-color: #080f1b;margin-left: auto;background-image:url("./websitesimages/polar-bears.jpg");background-repeat: no-repeat;background-position:right top; }
-#Player {height: 400px;width: 350px; background-color: deeppink;transform: translate(50%,45%);position: absolute;border-radius: 30%;}
 .leaderboardname
 {display: block;position: absolute;margin-left: 42%;padding: 10px; }
 .main-content3
 {justify-content: space-around;}
+#Player 
+{height: 400px;width: 350px; background-color: deeppink;border-radius: 30%;}
 #Score
-{height: 400px;width: 350px; background-color: rgb(255, 87, 20);transform: translate(275%,45%);position: absolute;border-radius: 30%;}
+{height: 400px;width: 350px; background-color: rgb(255, 87, 20);border-radius: 30%;}
 #highscores
 {text-align: center;}
+.score-div
+{transform: translate(275%,45%);position: absolute;text-align: center;}
+.player-div
+{transform: translate(50%,45%);position: absolute;text-align: center;}
